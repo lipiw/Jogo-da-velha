@@ -1,0 +1,51 @@
+- CONCEITOS UTILIZADOS
+
+1. Escruta
+2. Variaveis
+3. Funções
+4. Matriz
+5. Laços de repetição
+6. Condicionais
+
+
+
+- IDEIA
+
+    tabuleiro[3][3]= {0,0,0},{0,0,0},{0,0,0};
+
+O tabuleiro se inicia zerado
+O primeiro jogador sera representado pelo numero 1
+O segundo jogador sera representado pelo numero -1
+
+TROCA DE JOGADORES
+if(jogador==1){
+    jogador=2;
+}else{
+    jogador=1;
+}
+
+
+
+
+- EXEMPLO DE REPRESENTAÇÃO DO TABULEIRO
+
+tabuleiro= {  0, 0, 0 },
+           { -1, 0, 1 },
+           {  0, 0, 0 };
+
+
+tabuleiro= {  1, -1, -1 },
+           { -1,  1,  1 },          VITORIA DO JOGADOR 1 
+           { -1, -1,  1 };
+
+
+obs: só consigo alterar se o valor da casa for igual a 0;
+
+
+PARA DESCOBRIR QUEM GANHOU:
+A soma da coluna, linha ou diagonal deve dar 3(bolinha) ou -3(x)
+
+Condição para vencer 12min
+
+Placar
+Ranking
